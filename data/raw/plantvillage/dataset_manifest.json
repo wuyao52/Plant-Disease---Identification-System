@@ -1,0 +1,20 @@
+﻿{
+    "source":  "https://github.com/spMohanty/PlantVillage-Dataset/tree/master/raw/color",
+    "classes":  [
+                    "Potato___Early_blight",
+                    "Potato___healthy",
+                    "Potato___Late_blight",
+                    "Tomato___Early_blight",
+                    "Tomato___healthy",
+                    "Tomato___Late_blight"
+                ],
+    "images_per_class":  8,
+    "counts":  {
+                   "Potato___Early_blight":  8,
+                   "Potato___healthy":  8,
+                   "Potato___Late_blight":  8,
+                   "Tomato___Early_blight":  8,
+                   "Tomato___healthy":  8,
+                   "Tomato___Late_blight":  8
+               }
+}

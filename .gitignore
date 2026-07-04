@@ -6,10 +6,13 @@ __pycache__/
 .venv/
 venv/
 data/raw/*
+!data/raw/plantvillage/
+!data/raw/plantvillage/**
 data/processed/*
 models/*.pt
 models/*.pth
 models/*.ckpt
+!models/plant_disease_mobilenet_v3_small.pt
 outputs/*
 outputs/runs/
 assets/class_names.json
