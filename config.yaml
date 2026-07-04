@@ -1,0 +1,36 @@
+project:
+  name: plant-disease-recognition
+  seed: 42
+
+data:
+  root: data/raw/plantvillage
+  image_size: 224
+  batch_size: 16
+  val_split: 0.15
+  test_split: 0.10
+  num_workers: 0
+
+model:
+  architecture: mobilenet_v3_small
+  pretrained: true
+  dropout: 0.2
+  freeze_backbone: false
+
+training:
+  epochs: 20
+  learning_rate: 0.0003
+  weight_decay: 0.0001
+  patience: 6
+  amp: false
+
+checkpoint:
+  path: models/plant_disease_mobilenet_v3_small.pt
+
+inference:
+  top_k: 5
+
+runtime:
+  device: auto
+
+outputs:
+  dir: outputs

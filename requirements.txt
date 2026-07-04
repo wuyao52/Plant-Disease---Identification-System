@@ -1,0 +1,8 @@
+torch>=2.1
+torchvision>=0.16
+streamlit>=1.34
+Pillow>=10.0
+numpy>=1.24
+PyYAML>=6.0
+pytest>=8.0
+requests>=2.31
